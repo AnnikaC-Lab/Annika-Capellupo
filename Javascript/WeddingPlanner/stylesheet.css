@@ -1,0 +1,40 @@
+.quicksand-uniquifier {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body { 
+    background-color: rgb(234, 202, 202);
+    background-image: url(WeddingBackground.jpg);
+}
+
+h1 { 
+    color: lightcoral;
+    font-size: 40px;
+}
+
+p {
+color: lightcoral;
+font-weight: bold;
+font-size: 24px;
+}
+
+button {
+    color: lightcoral;
+    border: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+
+.weddinglogo {
+    border-radius: 50%;
+    width: 200px;
+}
+
+a {
+    color: lightcoral;
+}

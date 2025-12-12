@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>COGS3 - Best of 10!</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- Reports the values of the die and the sum -->
+    <h1 style="text-align: center;">Let's Roll the Dice!</h1> 
+    <a href="../../MyWork.html" class="btn"><p class="nn">Return to Portfolio</p></a>
+
+
+    <!-- Reports the outcome of the bet -->
+    <h2 class="tp">
+      If the dice add to anything above 9, you win $5! <br>
+    </h2>
+    <h2 class="bot">
+      If the dice add to 5 or less, I win $5. <br>
+      <strong>Ready to play?</strong>
+    </h2>
+
+    <!-- JS will input the content -->
+    <h3></h3>
+    <h4></h4>
+    
+
+    <div>
+      <p class="ask"> Do you want to roll the dice? </p>
+      <button class="myBtn" onclick="letsPlay()" id="myButton">Let's Play Again!</button>
+      <p id="clicksCounte">Rolls left: </p>
+    </div>
+
+    <div class="dice">
+      <img class="img1" src="images/dice6.png">
+    </div>
+
+    <div class="dice">
+      <img class="img2" src="images/dice6.png">
+    </div>
+  </div>
+
+  <footer>
+    COGS3 - Dice Game Bet 10 - Annika Capellupo - 11/20/2025
+  </footer>
+
+  <script src="index.js" charset="utf-8"></script>
+ <!--always link think js at end-->
+</body>
+
+</html>

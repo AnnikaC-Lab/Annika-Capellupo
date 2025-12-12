@@ -1,0 +1,115 @@
+
+.oswald-uniquifier {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.montserrat-uniquifier {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-image: url(images/dicebackground.jpg);
+  background-color: #282930;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: "oswald";
+  text-shadow: 2px 0 #5e0000;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #5e0000;
+  background-color: #000000;
+  width: 800px;
+}
+
+
+h2, h3, h4 {
+  margin: 0 auto;
+  font-family: "montserrat";
+  font-size: 1rem;
+  font-weight: 30px;
+  color: #ababab;
+  background-color: #363636;
+  width: 500px;
+
+}
+
+p {
+  color: #780000;
+  font-family: "oswald";
+  font-size: 2rem;
+  background-color:#363636;
+  border-radius: 10%;
+  width: 50%;
+  margin: auto; 
+  margin-bottom: 30px;
+}
+
+.tp {
+  padding-bottom: 1px;
+  margin-top: 30px;
+}
+
+.bot {
+ padding-top: 5px;
+}
+
+.ask{
+  background-color: #363636;
+  border: 30px;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 400px;
+  border-radius: 200px;
+}
+
+
+img {
+  width: 80%;
+  background-color: #780000;
+  border-radius: 30%;
+  mix-blend-mode: hard-light;
+}
+
+
+.myBtn {
+  margin: 30px;
+  background-color: rgb(0, 0, 0);
+  color: #d2d2d2;
+  border: none;
+  font-family: "montserrat";
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee8d;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nn {
+  color: black;
+}

@@ -1,0 +1,378 @@
+/* text */
+
+.quicksand-uniquifier {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+.parkinsans-uniquifier {
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+
+#title {
+    /*background-color:rgb(255, 210, 218);*/
+    background-color:#FFCBDD;
+}
+
+h1 {
+    font-family: 'Parkinsans', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #3E000C;
+}
+
+h3 {
+  font-family: 'Parkinsans';
+  font-weight: bold;
+  color: #3E000C;
+}
+
+.h3-features {
+  color: #FFCBDD;
+}
+
+p {
+  color: #3E000C;
+}
+
+/*h2 {
+ font-family: 'Parkinsans';
+ font-weight: bold;
+ font-size: 1.5rem;
+}
+ */
+
+h2 {
+  font-family: 'Parkinsans',sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #3E000C !important;
+  text-align: center;
+}
+
+/* Navigation bar */
+.navbar { 
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Quicksand';
+  font-size: 3.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+
+.nav-link {
+  font-family: 'Parkinsans', sans-serif;
+  font-size: 1.5rem;
+  color: #3E000C !important;
+}
+
+.nav-link:hover {
+  color: #3e000c82 !important;
+}
+
+
+/* Download Buttons*/
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+
+/* Title Image */
+
+.title-image {
+  width: 500px;
+  border-radius: 20px;
+  padding: 0 0 0 10px;
+}
+
+
+/* Features */
+
+#features {
+  padding: 7% 15%;
+  background-color: #7C0B2B;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #FFCBDD;
+  /* rgb(195, 90, 195);*/
+  padding-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #3E000C;
+}
+
+/* Testimonials */ 
+
+#testimonials {
+  text-align: center;
+  background-color: rgb(255, 210, 218);
+} 
+
+.testimonilas-image {
+  width: 20%;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing */
+
+#pricing {
+padding: 100px;
+}
+
+.pricing-header {
+  h2 {
+    color: black;
+  }
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+/* Call to Action*/
+#cta {
+  background-color: #7C0B2B;
+  color: #FFCBDD;
+  padding: 7% 15%;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: "Quicksand";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #FFCBDD;
+  padding-top: 80px;
+}
+
+
+/* Footer */
+#footer {
+  text-align: center;
+  background-color: #7C0B2B;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.footer-social-icon {
+  padding-left: 1rem;
+  size: 40px;
+  color: #3E000C;
+}
+
+/* Media Querey */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+/* Index */
+
+.button2 {
+  color: white;
+  background-color: #3E000C
+
+}
+
+/* About Me */ 
+#myWork {
+  padding: 7% 15%;
+  margin:10%
+}
+
+#abilities {
+  background-color: #FFCBDD;
+  text-align: center;
+}
+
+.h3-abilities {
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 15px;
+  background-color: #96546F;
+  border-radius: 20px;
+}
+
+.h3-abilities-coding {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 15px;
+  background-color: #96546F;
+  border-radius: 20px;
+}
+
+.iconME {
+  font-size: 40px;
+  color: #3E000C;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.p-classes {
+  font-size: 20px;
+}
+
+.p-classes2 {
+  font-size: 20px;
+  background-color: #be7b97;
+  border-radius: 15px;
+}
+
+.ahh {
+  margin: 0 5% 1% 5%;
+}
+
+
+.press-logo {
+  font-size: 50px; 
+  color: #3E000C;
+}
+
+/* if time fix */
+.press-logo-j {
+  width: 50px;
+  opacity: 100%;
+  color: #3E000C;
+}
+
+.p-icon {
+  font-family: "Quicksand";
+  font-size: 20px;
+}
+
+
+/* My Work */
+#studyBuddy {
+  text-align: center;
+}
+
+.studyBuddy { 
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ground1 {
+  background-color: #4A333B;
+  border-radius: 0 10px 10px 0;
+}
+
+.study{
+  background-color: #7C0B2B;
+  border-radius: 10px;
+}
+
+.studypic {
+  padding-bottom: 45px;
+}
+
+.ground2 {
+  background-color: #7C0B2B;
+  border-radius: 10px 0 0 10px;
+}
+
+.weddingplanner {
+  background-color: #4A333B;
+  border-radius: 10px;
+}
+
+.weddinglogo {
+  padding-bottom: 45px;
+}
+
+#dice-game {
+  text-align: center;
+  background-color: #96546F;
+  
+  border-radius: 10px;
+  padding-bottom: 40px;
+  margin-right: 12%;
+  margin-left: 12%;
+}
+
+.dice {
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  padding: 1%;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
+a:hover {
+  color: #FFCBDD;
+}
+
+.footer-mywork {
+  background-color: #FFCBDD;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+#cta-mywork {
+  background-color: #FFCBDD;
+  color: #96546F;
+  padding: 7% 15%;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.cta-heading-mywork {
+  font-family: "Quicksand";
+  font-weight: thin;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #96546F;
+  padding-top: 80px;
+}
